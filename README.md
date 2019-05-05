@@ -1,5 +1,5 @@
 # SearchAll
-Search Yahoo, Bing, Wkipedia at one click and view search results in one place.
+Search Yahoo, Bing, Wkipedia at one click and view search results in one page.
 
 ## Application Screenshots
 
@@ -19,5 +19,5 @@ Click Wikipedia tab.
 
 Can not display search results from Google, Stack Overflow, Twitter, Instagram etc as X-Frame-Options HTTP response header from these websites is set to sameorigin.
 
-click below link for info on X-Frame-Options.
-(https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)
+click below link for info on X-Frame-Options.\n
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
