@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Search All</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container marginTop">
+      <form id="searchall" class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="searchText">Search</label>
+          <div class="col-sm-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search google, yahoo, bing, etc"
+              id="searchText"
+              name="search"
+            />
+          </div>
+
+          <button class="btn btn-default" type="button" id="searchBtn">
+            <i class="glyphicon glyphicon-search"></i> Search
+          </button>
+        </div>
+      </form>
+
+      <div class="marginTop">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="javascript:displaySrchRsltTab('1')">Yahoo</a>
+          </li>
+          <li class="">
+            <a href="javascript:displaySrchRsltTab('2')">Google</a>
+          </li>
+          <li>
+            <a href="javascript:displaySrchRsltTab('3')">Youtube</a>
+          </li>
+          <li>
+            <a href="javascript:displaySrchRsltTab('4')">Stack Overflow</a>
+          </li>
+          <li><a href="javascript:displaySrchRsltTab('5')">Bing</a></li>
+          <li><a href="javascript:displaySrchRsltTab('6')">DuckDuckGo</a></li>
+          <li><a href="javascript:displaySrchRsltTab('7')">Ask</a></li>
+          <li><a href="javascript:displaySrchRsltTab('8')">AOL</a></li>
+          <li><a href="javascript:displaySrchRsltTab('9')">Wikipedia</a></li>
+          <li><a href="javascript:displaySrchRsltTab('10')">Twitter</a></li>
+          <li><a href="javascript:displaySrchRsltTab('11')">Instagram</a></li>
+          <li><a href="javascript:displaySrchRsltTab('12')">GitHub</a></li>
+          <li><a href="javascript:displaySrchRsltTab('13')">Others</a></li>
+        </ul>
+      </div>
+      <div class="marginTop">
+        <iframe
+          data-src="https://in.search.yahoo.com/search?p="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src1="https://www.google.com/search?q="
+          data-src="https://www.google.com/custom?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://www.youtube.com/results?search_query="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://stackoverflow.com/search?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://www.bing.com/search?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://duckduckgo.com/?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://www.ask.com/web?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://search.aol.com/search?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://en.wikipedia.org/wiki/"
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://twitter.com/search?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://www.instagram.com/"
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          data-src="https://github.com/search?q="
+          target="_parent"
+          class=""
+        ></iframe>
+        <iframe
+          src="https://angular.io/"
+          target="_parent"
+          class="show"
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
