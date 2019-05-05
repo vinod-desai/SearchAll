@@ -12,7 +12,7 @@ Yahoo search results are shown default.
 ![](images/SearchApp_yahoo.png)
 
 Click Bing tab.
-![](images/SearchApp_yahoo.png)
+![](images/SearchApp_bing.png)
 
 Click Wikipedia tab.
 ![](images/SearchApp_wiki.png)
